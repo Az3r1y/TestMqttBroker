@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
@@ -94,7 +94,7 @@ namespace TestMqttBroker.Services
             }
             else
             {
-                Console.WriteLine("MQTT client is not connected.");
+                MessageBox.Show("MQTT client is not connected.");
             }
         }
 
